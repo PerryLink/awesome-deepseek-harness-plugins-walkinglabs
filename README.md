@@ -395,6 +395,9 @@ flowchart LR
 - [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) - Agent skills for scaffolding and testing DSH plugins.
 - [dsh-plugin-dev](https://github.com/omdsh-dev/dsh-plugin-dev) - Practical plugin-development notes on Cordis, TypeScript, Windows junctions, and sessions.
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) - Read-only plugin repository health checks for manifests, patches, and build pitfalls.
+- [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - Plugin-development knowledge base as an on-demand agent skill plus the `dsh-plugin-dev` CLI toolchain; installs via the `dsh.bundle` manifest (npm `dsh-plugin-guide`), maintained on the dsh-v0.1.5-rc.2 host line.
+- [dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) - Merged, version-locked plugin upgrade corridor (0.1.3-alpha.1 → 0.1.5-rc.1 as two closed legs): an evidence-bound version card plus a zero-dependency 20-seam scanner; installs via the `dsh.bundle` manifest (npm `dsh-plugin-upgrade-015`) with an npx scan CLI.
+- [dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) - Isolated install-smoke-uninstall test drives for DSH plugins in a throwaway DSH_HOME, emitting structured dsh-test-drive/v1 pass/fail matrices; installs via the `dsh.bundle` manifest (npm `dsh-test-drive`), maintained on the dsh-v0.1.5-rc.2 host line.
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) - Read-only local audit of configuration, plugin provenance, sessions, and network exposure.
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) - Read-only environment discovery: software, resources, ports, services, hardware, and workspace.
 - [dsh-bash-rtk](https://github.com/DeepTrial/dsh-bash-rtk) - Routes eligible bash commands through rtk (Rust Token Killer) inside the DSH bash executor to compress tool output and save tokens; safe passthrough when rtk is absent.
