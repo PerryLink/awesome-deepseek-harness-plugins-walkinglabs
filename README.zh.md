@@ -356,6 +356,7 @@ DSH 提供了以层级委派为主的表面与 workflow 组件；子 Agent 接�
 - [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计方法技能包以及 plugin_vet 供应链门禁：八个代理技能（密钥扫描、依赖审计、供应链审查、提示注入审查、审计编排、威胁建模、漏洞情报、事件响应），提供中英文两个版本，并附带一个 npm 提供方 bundle，用于挂载这些技能并注册自动化的 plugin_vet 安装前扫描器。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-talk](https://github.com/PerryLink/dsh-talk) - DeepSeek Harness 的语音输入输出——通过麦克风和音频输出实现语音转文字与文字转语音。声明兼容 DSH 0.1.6-alpha.2。
 - [dsh-translate](https://github.com/PerryLink/dsh-translate) - DeepSeek Harness 的工具输出修复层——工具调用的 JSON schema 强制校验、参数映射和 JSON 修复。声明兼容 DSH 0.1.6-alpha.2。
+- [dsh-laya](https://github.com/PerryLink/dsh-laya) - Laya 的有类型决策（`noul` 是/否、`choice`、`score`）作为一等 Cordis 服务与 `laya_ask`、`laya_plan` 两个模型可见工具；插件自身不安装也不下载任何东西，由你自行启动的 `laya-mcp serve` 边车提供模型。声明兼容 DSH 0.1.6-alpha.2。
 
 ## 贡献
 

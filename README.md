@@ -283,6 +283,7 @@ The `dsh-plugin` topic, a `dsh-` repository name, or a README claim alone is **n
 - [dsh-defend](https://github.com/PerryLink/dsh-defend) - Detects prompt-injection, jailbreak, and secret-leak patterns on the agent/pre-step, tools/pre-execute, and tools/post-execute seams with allow/ask/block tiers, sanitized defend/detection audit events, a defend_report tool, and a destructive-delete command guard. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - Engineering-discipline guard: requirements grill before the first edit, red/green test-evidence gates, forked adversary review, and a delivery report with a per-dimension verification workflow. Declares compatibility with DSH 0.1.6-alpha.2.
 - [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) - Claude Code-style declarative permission rules: ordered allow/deny/ask YAML rules matching tool names, arguments, workspace paths, and agent identity on the tools/pre-execute waterfall, with full session-log audit, dry-run mode, and hot reload. Declares compatibility with DSH 0.1.6-alpha.2.
+- [dsh-laya](https://github.com/PerryLink/dsh-laya) - Laya typed decisions (`noul` yes/no, `choice`, `score`) as a first-class Cordis service plus the model-visible `laya_ask` and `laya_plan` tools; it installs and downloads nothing and talks to a `laya-mcp serve` sidecar you start yourself.
 
 ## Context, Memory & Observability
 
